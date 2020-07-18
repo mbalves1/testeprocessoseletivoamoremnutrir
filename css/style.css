@@ -1,5 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Oswald', sans-serif;
+    
+    
+}
+
+.cursive{
+    font-family:  'Cedarville Cursive', cursive;
+    font-size: 35px;
 }
 
 .navbar{

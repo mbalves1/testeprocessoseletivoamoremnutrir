@@ -2,8 +2,8 @@
  * Animação Scroll
  */
 
-var $target = $(".anime"),
-animationclass = "anime-start";
+var $target = $(".anime");
+var animationclass = "anime-start";
 offset = $(window).height()*3/4;
 function animeScroll(){
     var documentTop = $(document).scrollTop();

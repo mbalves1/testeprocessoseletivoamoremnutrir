@@ -4,7 +4,8 @@ body{
 
 .navbar{
     background-color: #cf6d8f;
-    font-weight: 300s;
+    color: #fdfdfd;
+    font-weight: bold;
 }
 
 .input-group{
@@ -25,7 +26,7 @@ body{
 }
 
 .img{
-    margin-top:-100px;
+    margin-top:-83px;
     top:100px;
     position: relative;
     margin-bottom: -440px;
@@ -35,6 +36,23 @@ h2{
     font-size:22px;
     font-weight: bold;
 }
+
+h5{
+    font-size: 22px;
+    color: white!important;
+}
+
+h6{
+    color:#fdfdfd;
+    font-size:22px;
+    margin:11px;
+    
+}
+h6:hover{
+    cursor:pointer;
+    color:yellow;
+}
+
 p{
     font-size: 22px;
 }
@@ -83,20 +101,98 @@ p{
 }
 
 .arteCliente{
-    cursor:pointer;
+    /* cursor:pointer;
     box-shadow:3px 0px 6px 1px grey;
-    transition:all 0.5s;
-    width:100%!important;
+    transition:all 0.5s; */
+    width:100%;
     border-radius:10px; 
     
 }
 
 
 .arteCliente:hover{
-    box-shadow:none;
-    transition:all 0.5s;
+    /* box-shadow:none;
+    transition:all 0.5s; */
 }
 
 .form{
-    margin:253px;
+    margin-top: 16px;
+    margin-left: 314px;
+    margin-right: 311px;
+    margin-bottom:50px;
+}
+
+
+/*
+** BUtton
+*/
+
+.btn{
+    height: 30px;
+    width: 200px;
+    background-color: #CB70FA;
+    text-align: center; 
+    align-items: center;
+    padding-bottom: 3px;
+    box-shadow: 3px 4px 7px 1px #CB70FA;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    box-shadow: none;
+}
+
+.btn .btnFd{
+   box-shadow:3px 4px 7px 0px #F7B386"
+}
+.btn .btnFd:hover{
+    box-shadow: none;
+}
+
+
+.navbar-toggler{
+    color:white;
+}
+
+/*Footer
+*/ 
+
+footer{
+    background-color: #cf6d8f ; 
+    padding:50px ;
+}
+
+
+ /* Media Query
+*/
+
+@media screen and (max-width:700px){
+    .artA{
+        width: 73vw!important;
+        height: 48vh;
+        margin-left: -78px; 
+        margin-bottom: -82px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .form-group{
+        width:30%;
+    }
+}
+
+@media screen and (max-width:500px){
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .form-group{
+        width:30%;
+    }
 }

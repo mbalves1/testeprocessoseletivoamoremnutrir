@@ -1,8 +1,14 @@
 /* Media Query
 */
 
-@media screen and (max-width:1200px){
-    
+@media screen and (min-width:800px) and (max-width:900px){
+    .form-control, label{
+        width: 100px;
+        margin-left: -283px;
+        width:240px;
+        display: flex;  
+        align-items: center;
+    }
 }
 
 
@@ -11,7 +17,7 @@
     .artA{
         width: 314px!important;
         height: 235px;
-        margin-left: -78px;
+        margin-left: -90px;
         margin-bottom: -82px;
     }
     .form{
@@ -26,7 +32,7 @@
     }
     .form-control, label{
         width: 100px;
-        margin-left: -230px;
+        margin-left: -283px;
         width:240px;
         display: flex;  
         align-items: center;
@@ -38,7 +44,7 @@
 
         .form-control, label{
             width: 100px;
-            margin-left: -230px;
+            margin-left: -283px;
             width:240px;
             display: flex;  
             align-items: center;

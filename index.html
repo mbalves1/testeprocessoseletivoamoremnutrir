@@ -34,8 +34,9 @@
     }
   </style>
   <!-- Custom styles for this template -->
-  <link href="product.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="css/product.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 
 
 </head>
@@ -187,7 +188,7 @@
     <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden " style="background-color: #CB70FA;">
 
       <div class="my-3 py-3">
-        <button class="btn">Eu Quero Gratuito!</button>
+        <button class="btn btnFr" >Eu Quero Gratuito!</button>
         <h2 class="display-5">Saiba Como Se Tornar Referência Na Sua Região</h2>
         <p class="lead">Tenha acesso a 16 dicas que vão mudar a forma como você posiciona seu consultório, aplicando os
           4 Pilares do Consultório de Sucesso, e conquiste clientes fãs do seu trabalho.!</p>
@@ -195,19 +196,32 @@
       <div class="mx-auto" style="width: 40%; height: 370px; border-radius: 21px 21px 0 0;">
         <img class="arteCliente artA" src="images/samji_illustrator_2x.jpg" alt="">
 
+        
+      </div>
       </div>
     </div>
-  </div>
+
   <div class=" pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden " style="background-color: #F8C29E;">
 
     <div class="my-3 py-3">
-
-      <h5 class="display-5">Assine Nossa Lista Vip</h5>
+      <img src="images/diamond.svg" style="width:50px; height: 50px;" alt="">
+      <h5 class="display-5" style="font-size:30px;font-weight: bold;">Assine Nossa Lista Vip</h5>
       <p>Deixe aqui seu e-mail e receba na sua caixa de entrada materiais exclusivos, dicas da nossa equipe e outras
-        vantagens. Mas só para quem é da nossa lista VIP! Cadastre-se!</p>
+        vantagens.<strong> Mas só para quem é da nossa lista VIP! Cadastre-se!</strong></p>
     </div>
     <div class="form">
-      <div class="forms">
+      <div class="container " >
+        <label class="" for="inputEmail4">Nome</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="container " >
+        <label class="" for="inputEmail4">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="container">
+        <button class=" form-control btn" style="margin-top:20px; text-align: center;">Enviar</button>
+      </div>
+      <!-- <div class="forms">
         <form>
           <div class="form-row">
             <div class="form-group col-md-5">
@@ -219,23 +233,7 @@
               <input type="password" class="form-control" id="inputPassword4">
             </div>
           </div>
-          <div class="form-group">
-            <label for="inputAddress" style="margin-left:-100px;">Endereço</label>
-            <input type="text" class="form-control" style="width:520px" id="inputAddress" placeholder="1234 Main St">
-          </div>
-
-          <div class="form-row">
-            <div class="form-group col-md-4">
-              <label for="inputCity">Cidade</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="form-group col-md-4">
-              <label for="inputState">Estado</label>
-              <select id="inputState" class="form-control">
-                <option selected>Choose...</option>
-                <option>...</option>
-              </select>
-            </div>
+          
             <div class="form-group col-md-2">
               <label for="inputZip">CEP</label>
               <input type="text" class="form-control" id="inputZip">
@@ -246,7 +244,7 @@
           </div>
           <button type="submit" class="btn ">Enviar</button>
         </form>
-      </div>
+      </div> -->
     </div>
 
 
@@ -325,7 +323,8 @@
     </div>
   </footer>
 
-
+  <script src="src/index.js"></script>
+  <script src="src/jquery.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -339,7 +338,7 @@
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-  <script src="../assets/dist/js/bootstrap.bundle.js"></script>
+  <!-- <script src="../assets/dist/js/bootstrap.bundle.js"></script> -->
 </body>
 
 </html>

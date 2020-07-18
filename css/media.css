@@ -1,0 +1,50 @@
+/* Media Query
+*/
+
+@media screen and (max-width:1200px){
+    
+}
+
+
+
+@media screen and (max-width:800px){
+    .artA{
+        width: 314px!important;
+        height: 235px;
+        margin-left: -78px;
+        margin-bottom: -82px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .navbar-toggler{
+       background-image: url('images/open-menu.svg');
+       width:10px;
+    }
+    .form-control, label{
+        width: 100px;
+        margin-left: -230px;
+        width:240px;
+        display: flex;  
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:500px){
+
+
+        .form-control, label{
+            width: 100px;
+            margin-left: -230px;
+            width:240px;
+            display: flex;  
+            align-items: center;
+        }
+        .img{
+            top:80px;
+        }
+    
+}

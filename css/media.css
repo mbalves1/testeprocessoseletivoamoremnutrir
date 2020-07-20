@@ -85,6 +85,10 @@
     h1{
         margin-bottom: 0;
     }
+    .img {
+        width:100vw;
+        height:100vh;
+}
 
 }
 
@@ -110,10 +114,39 @@
     top: 0px;
 }
     .img {
-        width:0;
-        height:0;
+        width:100vw;
+        height:100vh;
 }
 }
+
+
+@media screen and (min-width:500px) and (max-width:800px) {
+
+
+    .form-control, label{
+        width: 100px;
+        margin-left: -283px;
+        width:240px;
+        display: flex;  
+        align-items: center;
+        display: contents;
+    }
+    .img{
+        top:80px;
+    }
+    .navbar-nav{
+        left:0;
+    }
+.imagePosition {
+position: relative;
+top: 0px;
+}
+.img {
+    width:100vw;
+    height:100vh;
+}
+}
+
 
 @media screen and (min-width: 992px){
     .navbar-expand-lg .navbar-nav {

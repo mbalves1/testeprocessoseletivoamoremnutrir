@@ -34,8 +34,10 @@
     .navbar-nav{
         left:0;
     }
-    .imagePosition{
-        top:0;
+    .imagePosition {
+    position: relative;
+    top: 0px;
+}
     
 }
 
@@ -73,8 +75,10 @@
     .navbar-nav{
         left:0;
     }
-    .imagePosition{
-        top:0;
+    .imagePosition {
+    position: relative;
+    top: 0px;
+}
 }
 
 @media screen and (max-width:500px){
@@ -94,8 +98,10 @@
         .navbar-nav{
             left:0;
         }
-    .imagePosition{
-        top:0;
+    .imagePosition {
+    position: relative;
+    top: 0px;
+}
 }
 
 @media screen and (min-width: 992px){
@@ -111,6 +117,8 @@
     .navbar-nav{
         left:0;
     }
-    .imagePosition{
-        top:0;
+    .imagePosition {
+    position: relative;
+    top:0px;
+}
 }

@@ -62,8 +62,12 @@ body{
     height: 100%;
 }
 
+h1 {
+    margin-bottom: 100px;
+}
+
 h2{
-    font-size:22px;
+    font-size:3rem;
     font-weight: bold;
 }
 
